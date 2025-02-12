@@ -12,6 +12,6 @@
         $resultado = "Você foi reprovado";
     }
 
-    echo "Sua média foi:", $notatotal, "<br>";
-    echo round($resultado);
+    echo "Sua média foi: ", round($notatotal), "<br>";
+    echo $resultado;
 ?>
